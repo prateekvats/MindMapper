@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+
+<script src="js/jquery-1.6.2.min.js"></script>
+<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="js/jquery.livequery.js"></script>
+<script src="js/Position.js"></script>
+<script src="js/raphael.js"></script>
+
+<meta charset="UTF-8" />
+<title>Canvas Drag and Drop Test</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="control">
+<ul><a href="#" id="B" onClick="Add();">+ Add</a></ul>
+<ul><a href="#" id="C" onClick="StartR();">Draw Relationship</a></ul>
+<ul><a href="#" id="C" onClick="DeleteN();">Delete Node</a></ul>
+
+</div>
+<section>
+
+<div id="all-container">
+
+<div id="holder" ></div>
+<div id="A" >
+<textarea name="root" id="root" class="in" readonly>Root</textarea>
+</div>
+</div>
+<script src="js/worked.js"></script>
+</section>
+</body>
+</html>
